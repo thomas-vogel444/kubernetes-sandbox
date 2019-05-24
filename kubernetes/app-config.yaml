@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  labels: 
+    app: walrus-app
+data:
+  my_name: tomvogel
+  what_do_you_want: "I want to dance!"
